@@ -3,7 +3,7 @@ layout: default
 ---
 
 <p class="meta">
-  {{ page.date | date: "%B %d, %Y" }} 
+  {{ page.date | date_to_string }} 
   <a href="/">
     <i class="home fa fa-home"></i>
   </a>
@@ -15,6 +15,7 @@ layout: default
   {{ content }}
 </div>
 
+{% if site.related_posts.size > 0 %}
 <div id="related">
   <h3>Related Posts</h3>
   <ul class="posts">
@@ -25,3 +26,4 @@ layout: default
     {% endfor %}
   </ul>
 </div>
+{% endif %}
