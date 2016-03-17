@@ -20,8 +20,9 @@ social:
 
 # "Hi, I'm _______"
 name: Miguel Mendes Ruiz
+display_name: Miguel M. Ruiz
 email: migmruiz@gmail.com
-tagline: "physics, development, music"
+tagline: "physics, coding, music"
 
 # Google Analytics key, leave blank to ignore
 #google_analytics_key: UA-xxxx-x
